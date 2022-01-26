@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c641e445bd9344db4afdd1bb56b714, type: 3}
+  m_Name: PlayerWeapon_Chaingun
+  m_EditorClassIdentifier: 
+  TargetingAngle: 8
+  WeaponDamage: 7
+  WeaponSwitchDelay: 0.6
+  WeaponRange: 150
+  WeaponFireRateRPM: 450
+  CurrentFireTime: 0
+  PlayerCamera: {fileID: 0}
+  Crosshair: {fileID: 0}
+  BulletSpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  SpinUpTime: 8
+  WeaponMaxHeat: 100
+  WeaponHeatResetPercentage: 0.3
+  WeaponHeatBuildUpRate: 2.8
+  WeaponHeatDecayRate: 28
+  WeaponMinFireRate: 150
+  WeaponMaxFireRate: 1800
+  WeaponFireRateDecayMultiplier: 4
+  CurrentSpinUpTime: 0
+  CurrentWeaponFireRateRPM: 150
+  CurrentWeaponHeat: 0
+  WeaponMaxHeatReached: 0
+  BulletTrailSystems:
+  - {fileID: 0}
+  - {fileID: 0}
